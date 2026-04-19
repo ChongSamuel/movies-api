@@ -103,10 +103,17 @@ Configurar conexión a base de datos en `.env`
 ```bash
 php artisan migrate
 ```
+---
+
+### 5. Ejecutar seeders
+
+```bash
+php artisan db:seed
+```
 
 ---
 
-### 5. Ejecutar servidor
+### 6. Ejecutar servidor
 
 ```bash
 php artisan serve
@@ -116,7 +123,7 @@ php artisan serve
 
 ## 🌐 Frontend
 
-El frontend es independiente y se encuentra en otra carpeta.
+La ruta del frontend dentro del proyecto es: backend/public/frontend
 Para ejecutarlo, basta con abrir el archivo:
 
 ```bash
