@@ -17,7 +17,6 @@ return new class extends Migration
             $table->text('synopsis')->nullable(); // antes description
             $table->string('image_url')->nullable();
             $table->integer('year')->nullable();
-            $table->string('genre')->nullable();
             $table->foreignId('category_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });

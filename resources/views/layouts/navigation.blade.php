@@ -19,7 +19,7 @@
                     @auth
                         @if(auth()->user()->role === 'admin')
                             <x-nav-link href="/admin/movies" :active="request()->is('admin/movies*')">
-                                {{ __('Películas') }}
+                                Configurar listado de películas
                             </x-nav-link>
                         @endif
                     @endauth
